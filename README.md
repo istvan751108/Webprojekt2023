@@ -1,1 +1,2 @@
-# Webprojekt2023
+Webprojekt2023
+Ez lesz a közös projektünk.
