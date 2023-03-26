@@ -1,4 +1,4 @@
-package hu.nye.webapp.movies.reponse;
+package hu.nye.webapp.movies.response;
 
 import java.util.List;
 
