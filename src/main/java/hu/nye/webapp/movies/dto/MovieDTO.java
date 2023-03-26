@@ -1,19 +1,28 @@
 package hu.nye.webapp.movies.dto;
 
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 import java.util.Date;
 import java.util.Set;
 
 public class MovieDTO {
+
     private Long id;
 
+    @NotBlank
     private String title;
 
     private String tagline;
 
+    @Min(value = 0)
+    @Max(value = 10)
     private double voteAverage;
 
     private int voteCount;
 
+    @NotNull
     private Date releaseDate;
 
     private String posterPath;
